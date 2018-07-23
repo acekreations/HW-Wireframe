@@ -1,0 +1,36 @@
+body {
+  width: 960px;
+  color: #777;
+  background-color: #777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.all-elems {
+  background-color: #ebebeb;
+  width: 100%;
+  height: 100px;
+  margin: 20px;
+}
+
+.header {
+
+}
+
+.nav {
+
+}
+
+.section {
+  width: 495px;
+  float: left;
+}
+
+.aside {
+  width: 465px;
+  float: right;
+}
+
+.footer {
+  clear: both;
+}
