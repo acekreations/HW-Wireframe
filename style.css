@@ -4,13 +4,20 @@ body {
   background-color: #777;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .all-elems {
   background-color: #ebebeb;
   width: 100%;
-  height: 100px;
-  margin: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.all-elems p {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header {
@@ -26,9 +33,37 @@ body {
   float: left;
 }
 
+.article {
+  background-color: #777;
+  color: #ebebeb;
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 20px 10px 20px;
+  margin-bottom: 20px;
+}
+
+#article-title {
+  padding-bottom: 0px;
+}
+
+.article-heading {
+  background-color: #ebebeb;
+  color: #777;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-heading h5 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .aside {
-  width: 465px;
-  float: right;
+  width: 445px;
+  margin-left: 20px;
+  float: left;
+  height: 353px;
 }
 
 .footer {
